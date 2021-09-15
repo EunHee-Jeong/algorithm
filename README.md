@@ -1,5 +1,5 @@
 # algorithm
-
-<br>알고리즘 풀이 기록
 <br>
-records of problems solved
+자료구조 공부 - 풀이과정 기록용
+<br>
+studying data structure - records of problems solved
