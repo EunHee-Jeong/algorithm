@@ -77,7 +77,7 @@ int main() {
     A = deleteFirst(A, n);  // 배열 A의 첫번째 요소를 제거
     print(A, n);
     
-    delete [] A;    // 동적할당했기 때문에 array를 종료하려면 메모리 해제가 필요함!
+    delete [] A;    // 동적할당했기 때문에 array를 종료하려면 메모리 해제가 필요함
     
     return 0;
 }
