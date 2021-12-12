@@ -5,7 +5,7 @@
 //  Created by 정은희 on 2021/12/12.
 //
 
-// Copy Constructor -> 객체가 새롭게 생성될 때 호출
+// Copy Constructor -> 1. 객체가 새롭게 생성될 때 호출  2. 함수 호출 시 전달인자로 클래스가 넘어갈 때 호출
 
 #include <iostream>
 
@@ -25,6 +25,10 @@ private:
     double width, height, length;
 };
 
+void func(Box box) {
+    cout << "Copy Constructor가 호출 되었습니당" << endl;
+}
+
 int main() {
     
     // copy constructor 호출
@@ -33,10 +37,12 @@ int main() {
     box1.print();
     
     // 기본 생성자 호출
-    Box box2;
-    box2 = box;
-    Box box3;
-    box3 = box;
+//    Box box2;
+//    box2 = box;
+//    Box box3;
+//    box3 = box;
+    
+    func(box);
     
     return 0;
 }
